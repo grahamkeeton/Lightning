@@ -21,7 +21,7 @@ void mmm()
 {
 	if (mousePressed==true){
 		line();
-		branch();
+		
 	}
 }
 
@@ -35,19 +35,4 @@ void line(){
 }
 
 
-class branch(){
-
-		void digit(brX,brY){
-
-		brA =(int)((Math.random()*9));54
-		brB =(int)((Math.random()*18)-9);
-
-
-		}
-
-
-		void grow(brA,brB){
-		brA+=(int)((Math.random()*9)-18);
-		brB+=(int)((Math.random()*9)); 
-		}
 

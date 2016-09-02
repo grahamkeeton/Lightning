@@ -26,7 +26,7 @@ void mmm()
 	}
 }
 
-void line(){
+void branch(){
 	stroke((int)((Math.random()*255)),(int)((Math.random()*255)),(int)((Math.random()*255)) );
 	line(x,y,a,b);
 		x=a;

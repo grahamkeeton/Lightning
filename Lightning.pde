@@ -7,12 +7,13 @@ int b = (int)((Math.random()*9))+300;
 void setup()
 {
   size(300,300);
+  background(255);
 }
 
 
 void draw()
 {
-mmm();
+	mmm();
 }
 
 
